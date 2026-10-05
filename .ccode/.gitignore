@@ -1,0 +1,7 @@
+# Written by CCode. The local code index is a plaintext copy of this
+# workspace's source — never commit it.
+code-index.ndjson
+bm25-index.json
+file-hashes.json
+*.tmp
+.index.lock

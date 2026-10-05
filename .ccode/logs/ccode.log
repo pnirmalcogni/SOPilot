@@ -1,0 +1,27 @@
+[2026-10-05T09:58:37.969Z] [INFO] [SERVICE] ──────── CCode activated (v0.3.1) ────────
+[2026-10-05T09:58:37.969Z] [INFO] [SERVICE] Log file: c:\Users\125257\OneDrive - Cognizant\Desktop\Misc\LS Build-a-thon\SOPilot_Code\.ccode\logs\ccode.log
+[2026-10-05T09:58:37.970Z] [INFO] [SERVICE] [perf] token calibration restored: 2 endpoint::model entries (@24ms)
+[2026-10-05T09:58:37.977Z] [INFO] [SERVICE] [perf] TranscriptStore.openScoped: 6ms (@30ms)
+[2026-10-05T09:58:38.000Z] [INFO] [SERVICE] Tab completion provider registered (uses Custom provider configuration)
+[2026-10-05T09:58:38.006Z] [INFO] [SERVICE] Code indexing enabled (default): indexing is on by default; set cognizant.indexing.enabled to false to opt out
+[2026-10-05T09:58:38.008Z] [INFO] [SERVICE] [perf] synchronous activate() complete: 61ms
+[2026-10-05T09:58:38.173Z] [INFO] [SERVICE] [perf] discoverLegacy (deferred): 10ms, 0 legacy session(s)
+[2026-10-05T09:58:38.177Z] [INFO] [SERVICE] [perf] startup secrets.getConfig() (keychain): 170ms (@231ms)
+[2026-10-05T09:58:43.189Z] [INFO] [SERVICE] Using local project-index embeddings: API embeddings require a Custom API key and explicit embedding deployment
+[2026-10-05T09:58:43.232Z] [INFO] [SERVICE] [perf] Code index ready: 0 chunks in 41ms
+[2026-10-05T09:59:08.067Z] [DEBUG] [SERVICE] Index sync (startup): 0 files, 0 changed, 0 removed [runs=1 coalesced=0 deferred=0]
+[2026-10-05T10:00:15.505Z] [DEBUG] [SERVICE] Ignored uncaught exception from another extension: e is not iterable
+
+TypeError: e is not iterable
+	at POe.setItems (c:\Users\125257\.vscode\extensions\github.copilot-chat-0.43.0\dist\extension.js:1162:19962)
+	at Yd._computeFn (c:\Users\125257\.vscode\extensions\github.copilot-chat-0.43.0\dist\extension.js:1162:19701)
+	at Yd._recompute (c:\Users\125257\.vscode\extensions\github.copilot-chat-0.43.0\dist\extension.js:1162:11920)
+	at Yd.get (c:\Users\125257\.vscode\extensions\github.copilot-chat-0.43.0\dist\extension.js:1162:11254)
+	at Yd.reportChanges (c:\Users\125257\.vscode\extensions\github.copilot-chat-0.43.0\dist\extension.js:1162:497)
+	at DOe.endUpdate (c:\Users\125257\.vscode\extensions\github.copilot-chat-0.43.0\dist\extension.js:1162:19460)
+	at abn (c:\Users\125257\.vscode\extensions\github.copilot-chat-0.43.0\dist\extension.js:1162:19178)
+	at Yd.recomputeInitiallyAndOnChange (c:\Users\125257\.vscode\extensions\github.copilot-chat-0.43.0\dist\extension.js:1162:1092)
+	at j2.init (c:\Users\125257\.vscode\extensions\github.copilot-chat-0.43.0\dist\extension.js:2961:1659)
+[2026-10-05T10:04:08.080Z] [DEBUG] [SERVICE] Index sync (interval): 0 files, 0 changed, 0 removed [runs=2 coalesced=0 deferred=0]
+[2026-10-05T10:09:08.087Z] [DEBUG] [SERVICE] Index sync (interval): 0 files, 0 changed, 0 removed [runs=3 coalesced=0 deferred=0]
+[2026-10-05T10:14:08.085Z] [DEBUG] [SERVICE] Index sync (interval): 0 files, 0 changed, 0 removed [runs=4 coalesced=0 deferred=0]
